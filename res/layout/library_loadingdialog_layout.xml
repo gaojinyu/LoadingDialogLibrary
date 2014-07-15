@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="150dp"
-    android:layout_height="180dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical" 
+    android:background="#a0000000"
+    android:gravity="center"
    >
     <LinearLayout 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-         android:background="@drawable/library_loading_box_background"
+        android:id="@+id/library_loadingdialog_layout"
+        android:layout_width="150dip"
+        android:layout_height="180dip"
           android:gravity="center"
           android:orientation="vertical"
+          android:background="@drawable/library_loading_box_background"
         >
     <ImageView 
         android:id="@+id/library_loadingdialog_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/library_progress_bar_comment_loading"
+        android:src="@drawable/library_progress_bar_loading"
         android:layout_marginBottom="10dp"
         />
 

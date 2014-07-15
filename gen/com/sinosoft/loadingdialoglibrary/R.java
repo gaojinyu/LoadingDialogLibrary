@@ -17,11 +17,13 @@ public final class R {
         public static int ic_launcher=0x7f020000;
         public static int library_loading_box_background=0x7f020001;
         public static int library_progress_bar_comment_loading=0x7f020002;
+        public static int library_progress_bar_loading=0x7f020003;
     }
     public static final class id {
-        public static int library_loadingdialog_image=0x7f070000;
-        public static int library_loadingdialog_title=0x7f070001;
-        public static int library_progressbar_img=0x7f070002;
+        public static int library_loadingdialog_image=0x7f070001;
+        public static int library_loadingdialog_layout=0x7f070000;
+        public static int library_loadingdialog_title=0x7f070002;
+        public static int library_progressbar_img=0x7f070003;
     }
     public static final class layout {
         public static int library_loadingdialog_layout=0x7f030000;

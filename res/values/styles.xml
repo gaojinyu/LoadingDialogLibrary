@@ -22,9 +22,12 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:background">@android:color/black</item>
-        <item name="android:width">150.0dip</item>
-        <item name="android:height">200.0dip</item>
-    </style>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item> 
+         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item> 
+
+    </style> 
+
 
 </resources>
