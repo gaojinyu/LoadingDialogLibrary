@@ -1,9 +1,5 @@
 LoadingDialogLibrary
 ====================
+1、android progressbar
 
-LoadingDialogLibrary
-
-
-android loadingDialog 
-android progressbar
-android progressDialog
+2、android progressDialog
