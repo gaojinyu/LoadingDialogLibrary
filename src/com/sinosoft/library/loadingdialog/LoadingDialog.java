@@ -9,13 +9,13 @@
  */
 package com.sinosoft.library.loadingdialog;
 
-
 import android.R.layout;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.ActionBar.LayoutParams;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,16 +37,19 @@ import com.sinosoft.loadingdialoglibrary.R;
  */
 
 @SuppressLint("NewApi")
-public class LoadingDialog extends Dialog{
+public class LoadingDialog extends Dialog {
 	Animation loadingAnimation;
 	ImageView loadingDialogImageView;
 	public LoadingDialog(Context context) {
-		super(context,R.anim.library_loading_progressbar);
+		super(context, R.style.loading_dialog);
 		this.setContentView(R.layout.library_loadingdialog_layout);
-		loadingDialogImageView = (ImageView)findViewById(R.id.library_loadingdialog_image);
+		this.getWindow().setBackgroundDrawable(new ColorDrawable(0));
+		loadingDialogImageView = (ImageView) findViewById(R.id.library_loadingdialog_image);
 		loadingAnimation = AnimationUtils.loadAnimation(context,
 				R.anim.library_loading_progressbar);
 		loadingDialogImageView.startAnimation(loadingAnimation);
+		this.setCanceledOnTouchOutside(false);
+
 	}
 
 }
