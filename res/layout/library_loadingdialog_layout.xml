@@ -2,7 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#00000000"
+=======
+    android:background="#a0000000"
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
     android:clickable="false"
     android:focusable="false"
     android:gravity="center"

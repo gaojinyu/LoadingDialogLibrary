@@ -15,9 +15,13 @@ import android.app.Dialog;
 import android.app.ActionBar.LayoutParams;
 import android.app.ProgressDialog;
 import android.content.Context;
+<<<<<<< HEAD
 import android.content.DialogInterface;
 import android.graphics.drawable.ColorDrawable;
 import android.util.Log;
+=======
+import android.graphics.drawable.ColorDrawable;
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -42,18 +46,24 @@ import com.sinosoft.loadingdialoglibrary.R;
 public class LoadingDialog extends Dialog {
 	Animation loadingAnimation;
 	ImageView loadingDialogImageView;
+<<<<<<< HEAD
 	static TextView textView;
 	private Context context;
 
 	public LoadingDialog(Context context) {
 		super(context, R.style.loading_dialog);
 		this.context = context;
+=======
+	public LoadingDialog(Context context) {
+		super(context, R.style.loading_dialog);
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
 		this.setContentView(R.layout.library_loadingdialog_layout);
 		this.getWindow().setBackgroundDrawable(new ColorDrawable(0));
 		loadingDialogImageView = (ImageView) findViewById(R.id.library_loadingdialog_image);
 		loadingAnimation = AnimationUtils.loadAnimation(context,
 				R.anim.library_loading_progressbar);
 		loadingDialogImageView.startAnimation(loadingAnimation);
+<<<<<<< HEAD
 		textView = (TextView) findViewById(R.id.library_loadingdialog_title);
 		this.setCanceledOnTouchOutside(false);
 	}
@@ -61,4 +71,10 @@ public class LoadingDialog extends Dialog {
 	public void setText(String str){
 		textView.setText(str);
 	}
+=======
+		this.setCanceledOnTouchOutside(false);
+
+	}
+
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
 }

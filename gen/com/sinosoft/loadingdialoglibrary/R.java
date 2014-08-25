@@ -37,7 +37,10 @@ public final class R {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+<<<<<<< HEAD
 
+=======
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
     
 
             Theme customizations available in newer API levels can go in
@@ -53,8 +56,11 @@ public final class R {
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
         
 
         Base application theme for API 11+. This theme completely replaces

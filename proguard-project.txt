@@ -18,4 +18,7 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+<<<<<<< HEAD
  
+=======
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc

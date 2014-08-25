@@ -2,13 +2,21 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
+<<<<<<< HEAD
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+=======
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
+<<<<<<< HEAD
             backward-compatibility can go here.
+=======
+            backward-compatibility can go here.
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
         -->
     </style>
 
@@ -25,8 +33,14 @@
         <item name="android:gravity">center</item>
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:background">@null</item>
+<<<<<<< HEAD
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+=======
+         <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+>>>>>>> eab7e28108a273a50276fef5e8f247bba2838efc
     </style>
 
 </resources>
